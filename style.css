@@ -1,0 +1,236 @@
+.index-post-wrap {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.index-post {
+    display: block;
+    margin: 0 0 30px;
+}
+
+.blog-post {
+    display: block;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.index-post .post-image-wrap-out {
+    float: left;
+    width: 312px;
+    height: 195px;
+    overflow: hidden;
+    margin: 0 20px 0 0;
+}
+
+.index-post .post-image-wrap-inner {
+    padding: 0px 27px 0 37px;
+    position: relative;
+}
+
+.index-post .post-image-wrap-inner:before {
+    width: 78%;
+    left: 7px;
+    background-color: #909090;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 8px;
+}
+
+.index-post .post-meta-date {
+    font-size: 13px;
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+
+.index-post .post-meta-date .post-date.published {
+    float: right;
+    padding-left: 9px;
+    background: #fff;
+    position: relative;
+    color: #8b8a8a;
+    font-size: 12px;
+    line-height: 1.45em;
+    letter-spacing: 0.8px;
+}
+
+.post-image-wrap {
+    position: relative;
+    display: block;
+}
+
+.index-post .post-image-wrap .post-image-link {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    z-index: 1;
+    overflow: hidden;
+}
+a, a:visited {
+    text-decoration: none;
+}
+.post-image-link, .about-author .avatar-container, .comments .avatar-image-container {
+    background-color: rgba(155,155,155,0.07);
+    color: transparent!important;
+}
+a {
+    color: #96cac6;
+}
+
+.index-post .post-thumb {
+    border-radius: 10px;
+}
+
+.widget iframe, .widget img {
+    max-width: 100%;
+}
+.post-thumb {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: opacity .17s ease;
+}
+a img {
+    border: 0;
+}
+img {
+    border: none;
+    position: relative;
+}
+
+.index-post .post-image-wrap-out .rotate {
+    position: absolute;
+    top: 0;
+}
+
+.index-post .post-image-wrap-out .rotate:before {
+    width: 1px;
+    height: 80px;
+    top: 8px;
+    left: -30px;
+    background-color: #909090;
+    content: "";
+    position: absolute;
+}
+
+.index-post .post-image-wrap-out .rotate .cat-links {
+    left: -26px;
+    top: 10em;
+    font-size: 12px;
+    color: #3f3d3d;
+    -webkit-transform: rotate(90deg) translateX(-72%);
+    -ms-transform: rotate(90deg) translateX(-72%);
+    transform: rotate(90deg) translateX(-72%);
+    position: absolute;
+    -webkit-transform-origin: left center 0;
+    -ms-transform-origin: left center 0;
+    transform-origin: left center 0;
+    white-space: nowrap;
+}
+
+.index-post .post-image-wrap-out .rotate .cat-links .post-tag {
+    background: #fff;
+    position: relative;
+    letter-spacing: 4px;
+    padding: 0 0 0 10px;
+    text-transform: capitalize;
+    color: #3f3d3d;
+}
+
+.index-post .post-info {
+    overflow: hidden;
+}
+
+.index-post .post-info > h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-decoration: none;
+    margin: 0;
+}
+
+.index-post .post-info > h2 > a {
+    display: block;
+    color: #000000;
+    transition: color .17s;
+}
+.post-title a {
+    display: block;
+}
+a, a:visited {
+    text-decoration: none;
+}
+
+a {
+    color: #96cac6;
+}
+
+.index-post .post-meta {
+    margin: 10px 0 0;
+}
+.post-meta {
+    overflow: hidden;
+    color: #aaa;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 1px;
+}
+
+.post-meta .post-author, .post-meta .post-date {
+
+    display: inline-block;
+    margin: 0;
+}
+
+.post-author {
+    font-weight: 700;
+}
+
+.post-meta a {
+    color: #000000;
+    transition: color .17s;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+a {
+    color: #96cac6;
+}
+
+.post-snippet {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 1.6em;
+    font-weight: 400;
+    margin: 7px 0 0;
+}
+
+a.read-more {
+    display: inline-block;
+    background-color: #96cac6;
+    color: #fff;
+    height: 28px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 0 15px;
+    margin: 12px 0 0;
+    border-radius: 2px;
+    transition: background .17s ease;
+}
+a, a:visited {
+    text-decoration: none;
+}
+
+a {
+    color: #96cac6;
+}
+
